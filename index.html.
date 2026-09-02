@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Odkup kovin Ljubljana</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    color: #222;
+}
+
+header {
+    background: #111820;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.gumb {
+    display: inline-block;
+    background: #f5b700;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.hero {
+    max-width: 1100px;
+    margin: 25px auto;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(135deg,#e8ecee,#9fa8ad,#f5f7f8);
+    position: relative;
+}
+
+.kovina {
+    position: absolute;
+    width: 120%;
+    height: 50px;
+    background: linear-gradient(#fff,#9da5a9,#fff);
+    border-radius: 8px;
+    transform: rotate(-15deg);
+    left: -50px;
+}
+
+.k1 { top: 50px; }
+.k2 { top: 130px; }
+.k3 { top: 210px; }
+
+.napis {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #111820;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+}
+
+.kategorija {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.kategorija h3 {
+    font-size: 23px;
+}
+
+.odvoz {
+    background: #111820;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.kontakt {
+    background: #f5b700;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.telefon {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+footer {
+    background: #111820;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>ODKUP KOVIN</h1>
+
+<p>Ljubljana in okolica</p>
+
+<p>
+Odkup vseh vrst kovin • Fizične osebe • Podjetja
+</p>
+
+<a class="gumb" href="tel:070577077">
+📞 070 577 077
+</a>
+
+</header>
+
+
+<div class="hero">
+
+<div class="kovina k1"></div>
+<div class="kovina k2"></div>
+<div class="kovina k3"></div>
+
+<div class="napis">
+ALUMINIJ IN DRUGE KOVINE
+</div>
+
+</div>
+
+
+<div class="container">
+
+<div class="box">
+
+<h2>ODKUP VSEH VRST KOVIN</h2>
+
+<p>
+Odkupujemo kovine od fizičnih oseb in podjetij.
+</p>
+
+<p>
+Pokličite nas za ponudbo in dogovor glede prevzema.
+</p>
+
+</div>
+
+
+<h2>KAJ ODKUPUJEMO</h2>
+
+<div class="grid">
+
+<div class="kategorija">
+<h3>🔩 Aluminij</h3>
+<p>Profili, cevi, pločevina in drugi aluminij.</p>
+</div>
+
+<div class="kategorija">
+<h3>🔶 Baker</h3>
+<p>Različne vrste bakra in bakreni odpad.</p>
+</div>
+
+<div class="kategorija">
+<h3>🟡 Medenina</h3>
+<p>Odkup medenine in izdelkov iz medenine.</p>
+</div>
+
+<div class="kategorija">
+<h3>⚙️ Železo in jeklo</h3>
+<p>Železni in jekleni odpad.</p>
+</div>
+
+<div class="kategorija">
+<h3>⬡ Inox</h3>
+<p>Nerjavno jeklo in inox material.</p>
+</div>
+
+<div class="kategorija">
+<h3>⚫ Svinec</h3>
+<p>Odkup svinca in kovinskih odpadkov.</p>
+</div>
+
+</div>
+
+
+<div class="odvoz">
+
+<h2>ODVOZ KOPIRNIH STROJEV</h2>
+
+<p>
+Odvoz starih in odvečnih kopirnih strojev.
+</p>
+
+<p>
+Pokličite nas in dogovorili se bomo za prevzem.
+</p>
+
+</div>
+
+
+<div class="kontakt">
+
+<h2>POKLIČITE ZA PONUDBO</h2>
+
+<p class="telefon">
+<a href="tel:070577077">
+070 577 077
+</a>
+</p>
+
+<p>📍 Ljubljana</p>
+
+</div>
+
+</div>
+
+
+<footer>
+
+<strong>ODKUP KOVIN</strong>
+
+<br><br>
+
+Ljubljana • 070 577 077
+
+</footer>
+
+</body>
+</html>
